@@ -48,7 +48,7 @@ def run_game():
     ai_settings = Settings()
     input = Input()
 
-    screen: pygame.Surface = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+    screen: pygame.Surface = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.FULLSCREEN)
 
     TextureAtlas.initialize()
     logger.info("Initializing region manager")
